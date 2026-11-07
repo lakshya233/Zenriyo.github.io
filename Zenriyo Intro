@@ -1,0 +1,415 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Intro</title>
+<style>
+/* General Styling */
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #0f172a, #1e293b);
+color: white;
+text-align: center;
+overflow-x: hidden;
+}
+header {
+padding: 80px 20px;
+background: linear-gradient(to right, #3b82f6, #06b6d4);
+animation: fadeIn 2s ease;
+}
+header h1 {
+font-size: 2.5rem;
+margin-bottom: 10px;
+text-shadow: 0 0 15px #00f6ff;
+}
+header h2 {
+font-size: 1.2rem;
+font-weight: 300;
+color: #f0f0f0;
+}
+/* Typing animation */
+.typing {
+font-size: 1.3rem;
+margin-top: 20px;
+border-right: 3px solid white;
+white-space: nowrap;
+overflow: hidden;
+width: 0;
+animation: typing 4s steps(40, end) forwards,
+blink 0.7s step-end infinite;
+}
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+@keyframes blink {
+50% { border-color: transparent }
+}
+section {
+padding: 60px 20px;
+max-width: 900px;
+margin: auto;
+animation: fadeInUp 1.5s ease;
+}
+section h2 {
+color: #38bdf8;
+margin-bottom: 20px;
+font-size: 2rem;
+}
+section p {
+font-size: 1rem;
+line-height: 1.6;
+}
+/* Feature cards */
+.features {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+margin-top: 30px;
+}
+.card {
+background: #1e293b;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+transition: transform 0.3s, background 0.3s;
+}
+.card:hover {
+transform: translateY(-8px);
+background: #334155;
+}
+.border1 {
+border-style: solid;
+border-color: #06b6d4;
+}
+.border2 {
+border-style: dashed;
+border-color: #3b82f6;
+}
+.border3 {
+border-style: double;
+border-color: white;
+text-align: center;
+align-items: center;
+}
+.border4 {
+border-style: grooved;
+border-color: white;
+}
+.border5 {
+border-style: dotted;
+border-color: white;
+}
+.border6 {
+border-style: inset;
+border-color: white;
+}
+.border7 {
+border-style: hidden;
+border-color: white;
+}
+.border8 {
+border-style: outset;
+border-color: white;
+}
+.border9 {
+border-style: ridged;
+border-color: white;
+}
+nav {
+text-align: center;
+margin: 20px 0;
+}
+nav a {
+text-decoration: none;
+color: #111;
+background-color: #4ab3f4;
+padding: 12px 25px;
+margin: 5px;
+display: inline-block;
+border-radius: 8px;
+font-weight: bold;
+transition: 0.3s;
+}
+nav a:hover {
+background-color: #2d9ce0;
+}
+footer {
+padding: 20px;
+background: #0f172a;
+font-size: 0.9rem;
+color: #cbd5e1;
+border-top: 1px solid #1e293b;
+}
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+@keyframes fadeInUp {
+from { opacity: 0; transform: translateY(20px); }
+to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+<body>
+<!-- Hero Section -->
+<header>
+<h1>Zenriyo – India's First Search Engine and Web Browser</h1>
+<div class="typing">Where Innovation Takes Flight. </div>
+</header>
+<!-- About Section -->
+<section>
+<h2>About Zenriyo</h2>
+<p><strong>Who made it? </strong> Zenriyo is created by <b>Lakshya</b>, a young innovator with a vision for India's digital future. </p>
+<p><strong>Why is it made? </strong> To provide India with its very own search engine and browser that is fast, secure, and independent.</p>
+<p><strong>What it aims? </strong> Zenriyo aims to empower users with privacy, speed, and innovation while representing India on the global stage. And to end over dependence of foriegn engines like- <b><i> Google, Bing, Firefox, Yahoo </i></b> etc.</p>
+</section>
+<!-- Features Section -->
+<section>
+<h2>Features of Zenriyo</h2>
+<div class="features">
+<div class="card">
+<h3>🚀 Speed</h3>
+<p>Zenriyo is designed to deliver lightning-fast results with optimized browsing performance. </p>
+</div>
+<div class="card">
+<h3>🔒 Security</h3>
+<p>Focuses on protecting user data and ensuring safe browsing experiences. </p>
+</div>
+<div class="card">
+<h3>🇮🇳 Made in India</h3>
+<p>Proudly built to represent India's innovation in the tech world. </p>
+</div>
+<div class="card">
+<h3>Key features-</h3>
+<p>Inbuilt online and offline games. </p>
+<p> Perfect search result with mixed content of <h3>video, image, text. </h3></p>
+<p> A.I. assistant. </p>
+<p>Seaech option like- <b>Video, Image, Text, Icon, Voice note</b></p>
+<p>Best looking experience <b> [Animation or 3d] </b></p>
+<p>Best looking experience. </p>
+<p><b><I> And many more. </I></b></p>
+</div>
+<div class="card">
+    <h3>Modes-</h3>
+<p><b>Zenriyo Have Different Modes with Different Work Like-</b></p>
+<p>Zenriyo E.D.U Mode for Students. </p>
+<p>Zenriyo Offline Mode for easily accessible for rural area. </p>
+<p>Zenriyo Yojana Finder for Getting Govt. Jobs. </p>
+<p>Zenriyo Talent Mode for Showcasing your Talents. </p>
+<p>Zenriyo News Mode for easily accessible of news. </p>
+<p><b><I> And many more. </I></b></p>
+    </div>
+    <div class="card">
+        <h3>🇮🇳 Made in India</h3>
+        <p>Proudly built to represent India's innovation in the tech world. </p>
+        </div>
+</div>
+</section>
+<section>
+<h2> What features other don't have but Zenriyo have? </h2>
+<h3>1. India's first, local powered search engine-</h3>
+<p><strong>Google/Edge/Other:</strong> Show global result first. </p>
+<p><strong>Zenriyo:</strong> Show Indian result, websites, blog, creator, news-headlines first. </p>
+<div class="border1">
+</div>
+<h3>2. Voice search in Hindi, +10 regional language with foriegn languages-</h3>
+<p><strong>Google/Edge/Other:</strong> Limited regional support. </p>
+<p><strong>Zenriyo:</strong> Super fast and full UI/voice in Hindi, English, Marathi, Kumaoni, Punjabi, Gujarati, Bengali, Tamil, Telugu, etc.</p>
+<div class="border1">
+</div>
+<h3>3. 100% privacy mode-</h3>
+<p><strong>Google/Edge/Other:</strong> Track everything. </p>
+<p><strong>Zenriyo:</strong> No cookies, no target ads, no tracking or tracing, no unnessary ads, image, video, photo, text. </p>
+<div class="border1">
+</div>
+<h3>4. Offline Mini Zenriyo- (Zenriyo Lite) </h3>
+<p><strong>Google/Edge/Other:</strong> Needs full internet</p>
+<p><strong>Zenriyo:</strong> Download basic search data (G.K, Quiz, Laws, Facts, Carrer) for offline use in Rural or Village area. </p>
+<div class="border1">
+</div>
+<h3>5. Indian focused app with student + career tools-</h3>
+<p><strong>Google/Edge/Other:</strong> Only search. </p>
+<p><strong>Zenriyo:</strong> Built In-</p>
+<p>• G.K. Finder. </p>
+<p>• Career Suggestor. </p>
+<p>• Govt. Yojana Finder. </p>
+<p>• A.I. Doubt Solver. </p>
+<p>• Laktron an A.I.</p>
+<div class="border1">
+</div>
+<h3>6. Search Result Summarize- (A.I. Summarizer) </h3>
+<p><strong>Google/Edge/Other:</strong> Show full answer/links. </p>
+<p><strong>Zenriyo:</strong> Show quick short and esy to learn answer + summary at ttop powered by A.I.</p>
+<div class="border1">
+</div>
+<h3>7. Zenriyo E.D.U Mode-</h3>
+<p><strong>Google/Edge/Other:</strong> No feature like this. </p>
+<p><strong>Zenriyo:</strong> Special Student learning Mode</p>
+<p>• Distraction free</p>
+<p>• Remove all ads or unnessary video or image from other local websites. </p>
+<p>• Safe-Search Mode. </p>
+<p>• Fast and deep Research. </p>
+<p>• Peace and calm Environment. </p>
+<p>• Connect with A.I. and real mentors. </p>
+<div class="border1">
+</div>
+<h3>8. Zenriyo Yojana Finder-</h3>
+<p><strong>Google/Edge/Other:</strong> No feature like this. </p>
+<p><strong>Zenriyo:</strong> Find Govt. job/scheme/sholorship in your area or in your state. related to your interest. </p>
+<div class="border1">
+</div>
+<h3>9. Real Indian Crawler-</h3>
+<p>• Making our own crawler to index Indian, blog, website, Govt. portal- <b>Not just copying Google or another API. </b></p>
+</section> 
+<div class="border2">
+</div>
+<section>
+<h2>Final list in which Zenriyo will take lead- </h2>
+<table border="3">
+<Caption>Final list-</Caption>
+<tr>
+<th>Category</th>
+<th>Zenriyo Status</th>
+<th>Competitors Weak Point</th>
+<tr>
+<td> A.I. + Career + Answer. </td>
+<td>Built in A.I. (Laktron)</td>
+<td>Need external tools. </td>
+</tr>
+<tr>
+<td>Privacy + Freedom. </td>
+<td>0% Tracking. </td>
+<td>Track everything. </td>
+<tr>
+<td>Student mode. </td>
+<td>Zenriyo E.D.U Mode. </td>
+<td>No-one has this Feature. </td>
+</tr>
+</table>
+</section>
+<div class="border2">
+</div>
+<section>
+<h2> Vision-</h2>
+<p>• To built a Bharat-centric, secure, multilingual, A.I. powered search-engine. </p>
+<p>• A platform that reflect India's voice, not maximum filtered by foreign algorithms. </p>
+<div class="border1">
+</div>
+<h2> Mission</h2>
+<p>• End ove dependence on foriegn engines like- <b>Google, Bing, Firefox, Yandex, Yahoo, etc.</b></p>
+<p>• Higlights Indian creator, blog, websites, news-headlines, govt. scheme or jobs. </p>
+<p>• Ensure privacy with no ad and tracking. </p>
+<p>• Empower every Indians with access to filtered, educational, regional content and International content. </p>
+<div class="border1">
+</div>
+<h2> Core Values-</h2>
+<p>• Zenriyo serves Bharat (India) first. </p>
+<p>• Super-fast, clutter-free Result. </p>
+<p>• Freedom from tracking and surveillance. </p>
+<p>• Mainly built for Indian and Foreign language. </p>
+<p>• A.I. summarizer, important answer and notes. </p>
+<div class="border1">
+</div>
+<h2>Unique. Selling. Point (U.S.P) </h2>
+<p>• Indian focused result (local>global) </p>
+<p>• Voice search in Hindi, English, +10 regional language with all international language. </p>
+<p>• Zero tracking or data profiling. </p>
+<p>• Offline lite version for rural area. </p>
+<p>• Build in A.I, A.I. summarizer for quick result. </p>
+<p>• <strong>Smart filter-</strong> G.K, Carrer, Coding, Govt. schemes, Leagl Hacking </p>
+<div class="border1"></div>
+<h2>Technology Blueprint-</h2>
+<p>• <strong>Web version [Frontend]</strong> Html, Css, JavaScript (J.S) </p>
+<p>• <strong> Web versipn [Backend]-</strong> Python, flask, node.js, etc.</p>
+<p>• <strong>Search API- </strong> Zenriyo Crawler. </p>
+<p>• <strong>App maker- </strong> Flutter, MIT App Inventor, etc</p>
+<p>• <strong> Hosting- </strong> Hostinger, Git-hub, netlify, Nercel, Other Indian servers, etc.</p>
+<div class="border1"></div>
+<h2>Zenriyo Module-</h2>
+<p>• Basic and advanced search-clean fast filtered</p>
+<p>• Voice search in hindi, english, other regional languages, international languages. </p>
+<p>• Regional mode with clean interface and input in Indian languages. </p>
+<p>• Zenriyobot woth chat, memory, search, fact, knowledge, study, etc</p>
+<p>• Current local and international news. </p>
+<p>• Interesting and useful tools like calculator, translater, scannner, QR code reader, etc.</p>
+<p>• A fact or quote everyday or on every search. to kepp you motivated </p>
+<p>• Learn new thing everyday every time with E.D.U Mode</p>
+<div class="border1"></div>
+<h2>Zenriyo for students. (E.D.U. Mode)-</h2>
+<p>• Clean and interactive + distraction free interface. </p>
+<p>• Study with safe search, notes, answers, and definition. </p>
+<p>• Special safe browsing filter for students. </p>
+<div class="border1"></div>
+<h2>Zenriyo for Bharat-</h2>
+<p>• With special tools, modes etc.</p>
+<p>• Specially focus for rural or village area people who are suffering from problems. </p>
+<div class="border1"></div>
+<h2>Overview-</h2>
+<p>• India's First Ranking, not global dominance. </p>
+<p>• Hindi, + regional language + international languages</p>
+<p>• 100% privacy, no tracking. </p>
+<p>• Offline mini Zenriyo <b> (Zenriyo Lite) </b></p>
+<p>• Smart filtered regional news. </p>
+<p>• A.I. Summarizer. </p>
+<p>• Zenriyo E.D.U. Mode for school/student/teachers. </p>
+<p>• Zenriyo yojana Finder. </p>
+<p>• Zenriyo Crawler. </p>
+<p>• Zenriyo special mode for Bharat. </p>
+<div class="border1"></div>
+<h2>Some Inbuilt-Tools. </h2>
+<p>• In-built games. </p>
+<p>• Inbuilt maps. </p>
+<p>• Real and trusted Shopping result. </p>
+<p>• Full custom animated UI/UX.</p>
+<p>• A cool and custom background which user can also customize by their choice. </p>
+<p>• Communication with friends. <b>(Optional)</b></p>
+<div class="border2"></div>
+</section>
+<section>
+<h2>Other search engines weakpoint and Zenriyo strong point-</h2>
+<p><b>Google:</b> Heavyweight, not 100% privacy, not support local</p>
+<p><b>Zenriyo:</b> Lightweight, ensure 100% privacy, support local first <b> (local > global) </b></p>
+<p><b>Bing/Edge:</b> Collect Lots of data. </p>
+<p><b>Zenriyo:</b> Privacy first, and not collect too much data. </p>
+<p><b>Firefox:</b> Very slow than Google or Edge, slow speed</p>
+<p><b>Zenriyo:</b> High speed and very fast. </p>
+<p><b>Baidu:</b></p> Accessable by the people of china, or some other countries.
+<p><b>Zenriyo:</b> Accessable by the people of India, and all over world. </p>
+<p><b>Yahoo:</b> Outdated and very old and uses Bing security. </p>
+<p><b>Zenriyo:</b> New, and best and uses its own security. </p>
+<div class="border2">
+</div>
+</section>
+<div class ="border2">
+<section>
+<h2> Zenriyo link</h2>
+<p> Zenriyo is an overpowered search engine so use it-</p>
+<nav>
+<a href="http://127.0.0.1:5000/">Open Zenriyo </a>
+</nav>
+</div>
+</section>
+<!-- Footer -->
+<footer>
+© 2025 Zenriyo. All Rights Reserved.
+</footer>
+<script>
+// Small animation: fade-in sections on scroll
+const sections = document.querySelectorAll("section");
+window.addEventListener("scroll", () => {
+sections.forEach(sec => {
+const top = sec.getBoundingClientRect().top;
+if (top < window.innerHeight - 100) {
+sec.style.opacity = "1";
+sec.style.transform = "translateY(0)";
+}
+});
+});
+</script>
+</body>
+</html>
+
